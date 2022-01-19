@@ -13,10 +13,26 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
   color: rgb(104, 103, 103);
+}
+
+.social {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social__container {
+  height: 64px;
+}
+
+.social__container img {
+  height: 100%;
+  object-fit: cover;
 }
